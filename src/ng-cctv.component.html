@@ -1,0 +1,8 @@
+<div id="cctv-holder" [style.top]="offset ? offset + 'px' : null">
+    <div id="blinker-holder" [style.transform]="'rotate(-' + angle + 'deg)'">
+        <span id="blinker" [class.on]="on"></span>
+    </div>
+
+    <div id="cctv-body"></div>
+    <div id="cctv-head" [style.transform]="'rotate(-' + angle + 'deg)'"></div>
+</div>

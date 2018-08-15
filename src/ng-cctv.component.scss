@@ -1,0 +1,90 @@
+/* THE CCTV BODY */
+
+#cctv-holder {
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 10px;
+    height: 105px;
+    width: 160px;
+    z-index: 997;
+    #blinker-holder {
+        position: absolute;
+        display: block;
+        bottom: 30px;
+        width: 120px;
+        right: 20px;
+        height: 35px;
+        z-index: 999999;
+    }
+    #blinker {
+        position: absolute;
+        top: 8px;
+        left: 40px;
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background: #EEE;
+    }
+    #cctv-body {
+        position: relative;
+        display: block;
+        float: right;
+        margin-top: 0;
+        margin-right: 40px;
+        margin-bottom: -10px;
+        width: 20px;
+        height: 50px;
+        background: no-repeat center;
+        // background-image: url(/assets/images/cctv/cctv-body.png);
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAA/CAMAAABU+CHxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkNCNjBGRTI2NDJCMTFFMzkzRkRDRUE3ODZGQkZFMTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkNCNjBGRTM2NDJCMTFFMzkzRkRDRUE3ODZGQkZFMTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2Q0I2MEZFMDY0MkIxMUUzOTNGRENFQTc4NkZCRkUxMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2Q0I2MEZFMTY0MkIxMUUzOTNGRENFQTc4NkZCRkUxMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjW36hcAAACWUExURQAAACMfIP///yMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfIKKqUA8AAAAxdFJOUwAAAAMJDBAbHiAkMDY8P0BLUFdgZnCAhIeQmZ+lrq+0t7/AyczP0tjZ29/n6u/z9vzp8Vw0AAAA6ElEQVRIx+3VSRKCMBAF0I7zACKi7QziPAv3v5wLgkq6Ayl1yd9RvIKEdH0AMDaIB42biTuDExvF2IHhe8EzcQ4AuLsi5TvwSqghoETjQtX5vJurztVvIJsRo24e0LRHiIhnuS5ERK8N2sj9IBSkdKUrXen+7kSS1MlLnasdEzfLd9YhrchlU++q4+jdpRdL66aZ0r12NK6vtPOGd9W9WuMD1vVI3a9ZNyYuqnNuQf8fXc6tqLN/eR5d34Ndn01c8MX3q6Sh57EVQqR3Px13vqxj5oV1mflriRwnasPgFN+3E0vOM3X5eQLaoqo5ShnaAgAAAABJRU5ErkJggg==');
+        background-size: cover;
+    }
+    #cctv-head {
+        position: relative;
+        clear: both;
+        display: block;
+        margin: auto;
+        width: 120px;
+        height: 35px;
+        background: no-repeat center;
+        // background-image: url(/assets/images/cctv/cctv-head.png);
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAAzCAMAAAAjFiPPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkY5QzM3OTM2NTMwMTFFMzkyOURBMDlGNDMxREFCOTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkY5QzM3OTQ2NTMwMTFFMzkyOURBMDlGNDMxREFCOTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGRjlDMzc5MTY1MzAxMUUzOTI5REEwOUY0MzFEQUI5MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGRjlDMzc5MjY1MzAxMUUzOTI5REEwOUY0MzFEQUI5MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pp9+D2wAAALZUExURSMfIP///yMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfICMfIF9OGEsAAADydFJOUwAAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDY3ODk6Ozw9PkBCREVGR0hJS0xNTlFSU1RVVldYWVpbXF1eX2JjZGVmZ2hpamtsbW5vcHFyc3R1d3h5ent8fX5/gYKDhIWGh4iJiouMjY6PkJGSk5SVlpeYmZqbnJ2foKGio6SlpqeoqaqrrK2ur7CxsrO1tre4ubq7vL2+v8DBwsPFxsfIycrLzM3Oz9DR0tPU1dbX2Nna29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T19vf4+fr7/P3+fX9IzQAABWpJREFUGBnNwQtbUwUABuDPjQ2YIAgIJIoSKpTgjSwxxTuaYRoF4SUVFaU0TSvFa5lmhhiWmppImRaRkJYQRnhBBZe3vADZEEEgUMd2tu8X9JzJeYy1IfYIh/cFoAZUgAL3qQAN4AJogI6AM+AIBxUcgE6AC+AGeACegDscXaDuCDdHeCngA/gCvsATcPaFqzc8PeHjhu4a9FQjEAiGUwA6B8A3AN38EeKLPl4I6qQOdXId5OQ/AMGhCAhF/2DVwEC38ADPCF/3CI/eQ7wDR7iHPI9+4dHJcYnvvTbrwylzV0cvSYpd++7sDQvfXPfW7G3zl6XMW5qc+H7qGympc1KTl328eVHa+mXpa9Z/k5RycOWnaWs2f7s8/et1WXs2ZOxJzv58a+6Wz3K37s1JzchP+SEv9fBP237N2pV/MK3wwME/0nO0+zKL0vOK04sL0y8fz9YWZFTlZOiO/Hzzx1O6n86VHC3WHfrrak75+aO3tAX1Z4uMBecNJ4uM+eV3fquE9+srs8wmso6sJWvIOrKerCMNpECBNJB68h55h2wgDaSJ95lJgRRIA2kkTbRiJk2kifaY2RIAXMJiUwtL2W7BwmtoSEJmHdsnSDRdhiUVsD3CA0qXns/Myme7gyaUQO9VJaSB7QhsiFhzsIJmthewSTkiQ3vrHtsH2OMxYYu2Rs92AHYEAvCL271bq6fcYJum8sTqyT6AV8S7mdcpL0g8VGF9lMN7qJUQ+ZeTLFg1zNcdfpMWrKugjCCJv/yLvriwLtcBIp8ciuqPpCUMdHJQrtVTPmikWGiiqNgDFlVsVH1i20jMNVE+aKSYYKSoLBC+Qeg5/DgfWIgZlBEk82mhc8bCoosZl2r4wCa8fY/ygSTWQNGZzviEVlIx3UD5oJFikkCRLgQbaeUjzKGFnnKAZJqeokqotwlsagMSDRTdpRwgmVpP0ZmnlO/RSipiGigfSCbQoiQIm2hlM+IpI0imGSmqdlWtE9iE6WPFXCPlA0lULUWng9VJZjZhTkcMZQTJeFoYA7CeVj5AlJnygSTGTFGZGzbSylcIOkf5oJFiXC1Fl0KRSCs1keidT9lAEkkLUzCSTbRy6QUMPEm5QPLSbYquByiWCLSmH4cuxykTSIY3UHTjWSzlf5VPhX+uQFlAMpwW5iCsEPhfNePQP4+ygOTFWxT92UO1uIE26GfBJ5NygCTsLkXVw7CYNummIOgwZQDJGFoIvbGSthmi4ZTHNidAEnmbohtPY5GZtlVMdfT/TmDb0mdD8nQdRVUjEW+iHbUz4ZHDtmSsmucHyWg9RYZemLh/bcaOUtoiJEC1m21H92M/PDCigqIbzwGuznDLpU0VM+F3hG3EcDreCf8SRgv9KIjc9tOORXDYxzZRsn0AmnjyzNk9Zw/tveQHkfpL2nE70bHrlwa2vu9ec0RTGnT3QjcvKGGRSbvmo9N2trZrSX3QPE0a7RKWqzXbBbaqvZGueAjVF7SvYRE897EVlU1/Eg/lmGVmM1YAn7G11O0a4IyHc9rB5tS84+z9icBWcS3KCy2yk83bAOzk4ydU7eqkQIuovmXzjCmemrV3+PiYSTMbDr+MlnL/guUUbtJQyfpqVtdSd5elBpaSV2guYf113n5FrUrm5ZssqeTVOv6ubygSKopYeoE6LS9epPbK3Ru09rch/6TpWHH5sXMV2RdKs8q0WaWnssqKD93Myy77/ujFA5s0aDHnPkvjxs6JDl8wOSJh4qiEkeNnRETFDp30at+Y8YNiowbHjB4QN1QBDJ44eEi0/4hJPUeP7RYZ7j8mLHBMeNeJvQLH+vcd1eFRqTr3wv+nBBwAB0ABmxSAAlY6PCrY8Q9cp/XyXOotxgAAAABJRU5ErkJggg==');
+        background-size: cover;
+    }
+}
+
+#cctv-holder #blinker-holder #blinker.on {
+    background: #EEE;
+    animation: flash 1s ease-in-out infinite alternate;
+}
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@include keyframes(flash) {
+    from {
+        background: #EEE;
+    }
+    to {
+        background: #FF4444;
+    }
+}
+
+@media (max-width: 768px) {
+    #cctv-holder {
+        display: none;
+    }
+}
