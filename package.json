@@ -63,7 +63,7 @@
         "node-sass": "^4.13.0",
         "node-sass-tilde-importer": "^1.0.2",
         "node-watch": "^0.6.3",
-        "protractor": "^5.4.2",
+        "protractor": "^6.0.0",
         "rollup": "^1.26.3",
         "run-sequence": "^2.2.1",
         "rxjs": "^6.5.3",
